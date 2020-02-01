@@ -1,11 +1,10 @@
 body {
-	background: #b3ef89;
+	background: #f4f4f4;
 	font-family: Arial, sans-serif;
 }
 
 .item {
 	user-select: none;
-	margin: 10px;
 	background: #b0e0ff;
 	display: flex;
 	justify-content: center;
@@ -14,17 +13,20 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 	padding: 12px;
-	border: solid 2px #000;
+	border: solid 1px #000;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	background: #f7f7f7;
+	background: #fff;
 	max-width: 300px;
-	border: solid 4px #000;
+	padding: 10px;
 	float: left;
-  margin-right: 10px;
+	border-radius: 10px;
+	box-shadow: 30px 30px 27px -24px rgba(0, 0, 0, 0.75);
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 input {
@@ -33,8 +35,7 @@ input {
 	height: 45px;
 	text-align: right;
 	font-size: 25px;
-	border: solid 0 #000;
-	border-bottom: solid 4px #000;
+	border: solid 1px #000;
 }
 
 input[value] {
